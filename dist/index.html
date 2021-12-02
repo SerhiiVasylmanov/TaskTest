@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <div id="homepage" class="homepage">
+      <div class="container">
+        <header class="header">
+          <div class="header__body">
+            <div class="header-logo">
+              <svg
+                width="198"
+                height="24"
+                viewBox="0 0 198 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M127.594 23.4961V0H136.425C140.059 0 142.958 1.13005 145.121 3.39015C147.285 5.65025 148.366 8.43621 148.366 11.748C148.366 15.0599 147.285 17.8458 145.121 20.1059C142.981 22.366 140.082 23.4961 136.425 23.4961H127.594ZM133.013 18.9311H135.923C138.108 18.9311 139.792 18.2374 140.974 16.8501C142.178 15.4403 142.78 13.7396 142.78 11.748C142.78 9.75647 142.178 8.06699 140.974 6.6796C139.792 5.26984 138.108 4.56495 135.923 4.56495H133.013V18.9311Z"
+                  fill="#5A5A5A"
+                />
+                <path
+                  d="M180.709 24C178.078 24 175.981 23.2168 174.42 21.6504C172.859 20.0616 172.079 17.9805 172.079 15.4071C172.079 12.8338 172.859 10.7639 174.42 9.19747C175.981 7.63106 178.078 6.84786 180.709 6.84786C183.095 6.84786 185.035 7.44086 186.529 8.62685C188.023 9.81284 188.871 11.424 189.071 13.4603H183.954C183.574 11.9387 182.504 11.1779 180.742 11.1779C179.627 11.1779 178.758 11.5471 178.133 12.2855C177.509 13.024 177.197 14.0645 177.197 15.4071C177.197 16.7498 177.509 17.7903 178.133 18.5288C178.758 19.2672 179.627 19.6364 180.742 19.6364C182.504 19.6364 183.574 18.9204 183.954 17.4882H189.071C188.871 19.4798 188.023 21.0686 186.529 22.2546C185.035 23.4182 183.095 24 180.709 24Z"
+                  fill="#5A5A5A"
+                />
+                <path
+                  d="M197.03 22.8588C196.405 23.5077 195.625 23.8322 194.688 23.8322C193.752 23.8322 192.96 23.5077 192.313 22.8588C191.689 22.2098 191.377 21.4378 191.377 20.5427C191.377 19.6253 191.689 18.8532 192.313 18.2267C192.96 17.5777 193.752 17.2533 194.688 17.2533C195.625 17.2533 196.405 17.5777 197.03 18.2267C197.676 18.8532 198 19.6253 198 20.5427C198 21.4378 197.676 22.2098 197.03 22.8588Z"
+                  fill="#5A5A5A"
+                />
+                <g clip-path="url(#clip0_12_6)">
+                  <path
+                    d="M170.367 15.3786L165.164 23.9198H154.759L154.713 23.8447L157.633 21.08C158.24 21.2833 158.896 21.399 159.579 21.399C162.763 21.399 165.339 18.9533 165.339 15.9384C165.339 15.0721 165.128 14.2589 164.752 13.5364L161.733 16.3981C161.598 16.5263 161.446 16.6296 161.281 16.7109C160.575 17.0643 159.685 16.9579 159.094 16.3981C158.504 15.8383 158.391 14.9907 158.761 14.3246V14.3215C158.85 14.1651 158.959 14.0243 159.094 13.8961L162.113 11.0344C161.351 10.6779 160.49 10.4746 159.579 10.4746C156.399 10.4746 153.819 12.9203 153.819 15.9384C153.819 16.5858 153.941 17.2113 154.159 17.7867L152.173 19.6726L149.557 15.3786L154.759 6.8342H165.164L170.367 15.3786Z"
+                    fill="#5A5A5A"
+                  />
+                </g>
+                <path
+                  d="M8.26206 23.4961L0 0H5.68644L10.5701 15.6081L15.2196 0H19.4342L24.0837 15.6081L28.9674 0H34.6538L26.3918 23.4961H21.9764L17.3269 8.72712L12.6774 23.4961H8.26206Z"
+                  fill="#2FD066"
+                />
+                <path
+                  d="M35.2327 23.4961V7.31735H40.3505V10.7075C40.6181 9.54389 41.1644 8.6488 41.9895 8.02224C42.8369 7.3733 43.7735 7.04883 44.7993 7.04883C45.3344 7.04883 45.7804 7.09358 46.1372 7.18309V11.9494C45.5351 11.8823 45.0223 11.8487 44.5986 11.8487C41.7665 11.8487 40.3505 13.6501 40.3505 17.2528V23.4961H35.2327Z"
+                  fill="#2FD066"
+                />
+                <path
+                  d="M64.644 14.5676C64.644 15.2389 64.5994 15.9885 64.5102 16.8165H52.6022C52.6468 17.8682 53.0036 18.685 53.6726 19.2668C54.3416 19.8486 55.2447 20.1395 56.382 20.1395C57.943 20.1395 58.9464 19.636 59.3924 18.629H64.4099C64.1646 20.2178 63.2949 21.5157 61.8008 22.5227C60.329 23.5073 58.5228 23.9996 56.382 23.9996C53.6391 23.9996 51.476 23.2387 49.8927 21.7171C48.3095 20.1954 47.5178 18.092 47.5178 15.4067C47.5178 12.7662 48.3095 10.6851 49.8927 9.16347C51.476 7.61945 53.5834 6.84743 56.2147 6.84743C58.7123 6.84743 60.7416 7.5635 62.3026 8.99564C63.8635 10.4278 64.644 12.2851 64.644 14.5676ZM52.6022 13.6277H59.5931C59.5708 12.5536 59.2698 11.7257 58.69 11.1439C58.1102 10.562 57.274 10.2711 56.1813 10.2711C55.0886 10.2711 54.2189 10.5844 53.5722 11.211C52.9478 11.8152 52.6245 12.6208 52.6022 13.6277Z"
+                  fill="#2FD066"
+                />
+                <path
+                  d="M67.5717 23.4961V7.31735H72.6895V9.66696C73.6483 7.80965 75.3877 6.881 77.9076 6.881C81.8324 6.881 83.7947 9.08515 83.7947 13.4935V23.4961H78.6435V15.1718C78.6435 13.7844 78.4205 12.7774 77.9745 12.1508C77.5508 11.5243 76.8261 11.211 75.8003 11.211C73.7264 11.211 72.6895 12.4865 72.6895 15.0375V23.4961H67.5717Z"
+                  fill="#2FD066"
+                />
+                <path
+                  d="M95.2486 23.9996C92.6172 23.9996 90.5211 23.2164 88.9601 21.65C87.3991 20.0612 86.6186 17.9801 86.6186 15.4067C86.6186 12.8333 87.3991 10.7634 88.9601 9.19704C90.5211 7.63063 92.6172 6.84743 95.2486 6.84743C97.6347 6.84743 99.5748 7.44043 101.069 8.62642C102.563 9.81241 103.41 11.4236 103.611 13.4599H98.4932C98.1141 11.9382 97.0438 11.1774 95.2821 11.1774C94.1671 11.1774 93.2974 11.5466 92.673 12.2851C92.0486 13.0235 91.7364 14.0641 91.7364 15.4067C91.7364 16.7494 92.0486 17.7899 92.673 18.5283C93.2974 19.2668 94.1671 19.636 95.2821 19.636C97.0438 19.636 98.1141 18.9199 98.4932 17.4878H103.611C103.41 19.4794 102.563 21.0682 101.069 22.2541C99.5748 23.4178 97.6347 23.9996 95.2486 23.9996Z"
+                  fill="#2FD066"
+                />
+                <path
+                  d="M116.878 6.881C120.802 6.881 122.765 9.08515 122.765 13.4935V23.4961H117.614V15.1718C117.614 13.7844 117.391 12.7774 116.945 12.1508C116.521 11.5243 115.796 11.211 114.77 11.211C112.697 11.211 111.66 12.4865 111.66 15.0375V23.4961H106.542V0H111.66V9.66696C112.618 7.80965 114.358 6.881 116.878 6.881Z"
+                  fill="#2FD066"
+                />
+                <defs>
+                  <clipPath id="clip0_12_6">
+                    <rect
+                      width="20.8101"
+                      height="17.0856"
+                      fill="white"
+                      transform="translate(149.557 6.8342)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <div class="header__burger">
+              <span></span>
+            </div>
+            <nav class="header-menu">
+              <ul class="header-menu__list">
+                <li class="dropdown">
+                  <a href="#services" class="dropbtn link-menu"
+                    >Services
+                    <i class="dropbtn-arrow"
+                      ><svg
+                        width="14"
+                        height="8"
+                        viewBox="0 0 14 8"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M1 1L7 7L13 1" stroke="#2FD066" />
+                      </svg>
+                    </i>
+                  </a>
+                  <div class="dropdown-content">
+                    <a
+                      class="header-nav__list-link link-menu"
+                      href="#"
+                      >Mechanical Repair</a
+                    >
+                    <a
+                      class="header-nav__list-link link-menu"
+                      href="#"
+                      >Body/Collision Repair</a
+                    >
+                    <a
+                      class="header-nav__list-link link-menu"
+                      href="#"
+                      >Hybrid repair</a
+                    >
+                  </div>
+                </li>
+                <li>
+                  <a
+                    class="header-menu__list-link link-menu"
+                    href="#about"
+                    >About Us</a
+                  >
+                </li>
+                <li>
+                  <a class="header-menu__list-link link-menu" href="#"
+                    >Locations</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="header-menu__list-link link-menu"
+                    href="#reviews"
+                    >Blog</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="header-menu__list-help link-menu"
+                    href="#support"
+                    >Having a car problem?</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <main class="main__content">
+          <div class="main__content_left">
+            <h1 class="main__content_left-title title-h1">
+              Lorem ipsum dolor sit amet, consectetur elit.
+            </h1>
+            <div>
+              <h2 class="main__content_left-heading title-h2">
+                Lorem ipsum dolor sit amet
+              </h2>
+              <p class="main__content_left-text paragraph">
+                <span
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit.</span
+                >
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Faucibus sit scelerisque viverra aliquam commodo
+                in risus pretium morbi. Euismod sed at odio mauris
+                urna, tempor sed.
+              </p>
+              <button class="main__content_left-btn link">
+                CALL TO ACTION
+              </button>
+            </div>
+          </div>
+          <div class="main__content_right">
+            <div class="main__content_right-wrapper">
+              <p class="main__content_right-text paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit.
+              </p>
+              <p class="main__content_right-text paragraph">
+                Faucibus sit scelerisque viverra aliquam comodo in
+                pretium morbi.
+              </p>
+            </div>
+            <div class="main__content_right-img">
+              <img
+                src="./image/HomePageImage.png"
+                alt="ImageHomePage"
+              />
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-content-item">
+            <h3 class="about-content-heading title-h3">
+              Why choose us?
+            </h3>
+            <p class="about-content-text text-top paragraph">
+              <span
+                >Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit.</span
+              >Faucibus sit scelerisque viverra aliquam commodo in
+              risus pretium morbi. Euismod sed at odio mauris urna,
+              tempor sed.
+            </p>
+            <p class="about-content-text text-down paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Faucibus sit scelerisque viverra aliquam commodo in
+              risus pretium morbi. Euismod sed at odio mauris urna,
+              tempor sed.
+            </p>
+          </div>
+
+          <h2 class="about-content-title title-h2">
+            More than 500 cars repaired
+          </h2>
+          <div class="about-content-item">
+            <p class="about-content-text text-down paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Faucibus sit scelerisque viverra aliquam commodo in
+              risus pretium morbi. Euismod sed at odio mauris urna,
+              tempor sed.
+            </p>
+          </div>
+          <h2 class="about-content-title title-h2">More than</h2>
+        </div>
+      </div>
+    </section>
+    <section id="partners" class="partners">
+      <div class="container">
+        <div class="partners-content">
+          <h3 class="partners-content-heading title-h3">
+            Our partners
+          </h3>
+          <p class="partners-content-text paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <div class="partners-content-scroll">
+            <div class="scroll-item">
+              <img
+                class="scroll-item-logo"
+                src="./image/icon/FinishmasterLogo.svg"
+                alt="PartnerLogo"
+              />
+            </div>
+            <div class="scroll-item">
+              <img
+                class="scroll-item-logo"
+                src="./image/icon/WorldpacLogo.svg"
+                alt="PartnerLogo"
+              />
+            </div>
+            <div class="scroll-item">
+              <img
+                class="scroll-item-logo"
+                src="./image/icon/OreillyAutoLogo.svg"
+                alt="PartnerLogo"
+              />
+            </div>
+            <div class="scroll-item">
+              <img
+                class="scroll-item-logo"
+                src="./image/icon/InterstateBatteriesLogo.svg"
+                alt="PartnerLogo"
+              />
+            </div>
+            <div class="scroll-item">
+              <img
+                class="scroll-item-logo"
+                src="./image/icon/AutoPartsLogo.svg"
+                alt="PartnerLogo"
+              />
+            </div>
+            <div class="scroll-item">
+              <img
+                class="scroll-item-logo"
+                src="./image/icon/FinishmasterLogo.svg"
+                alt="PartnerLogo"
+              />
+            </div>
+            <div class="scroll-item">
+              <img
+                class="scroll-item-logo"
+                src="./image/icon/WorldpacLogo.svg"
+                alt="PartnerLogo"
+              />
+            </div>
+            <div class="scroll-item">
+              <img
+                class="scroll-item-logo"
+                src="./image/icon/OreillyAutoLogo.svg"
+                alt="PartnerLogo"
+              />
+            </div>
+            <div class="scroll-item">
+              <img
+                class="scroll-item-logo"
+                src="./image/icon/InterstateBatteriesLogo.svg"
+                alt="PartnerLogo"
+              />
+            </div>
+            <div class="scroll-item">
+              <img
+                class="scroll-item-logo"
+                src="./image/icon/AutoPartsLogo.svg"
+                alt="PartnerLogo"
+              />
+            </div>
+          </div>
+          <div class="scroll-button">
+            <button id="btn-partners" class="scroll-btn-left link">
+              Left
+            </button>
+            <button id="btn-partners" class="scroll-btn-right link">
+              Right
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="services">
+      <div class="services-item">
+        <div class="container">
+          <div class="services-content">
+            <h3 class="services-content-title title-h3">
+              Cars we service
+            </h3>
+            <p class="services-content-text paragraph">
+              <span
+                >Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit.</span
+              >
+              Faucibus sit scelerisque viverra aliquam commodo in
+              risus pretium morbi. Euismod sed at odio mauris urna,
+              tempor sed.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="services__cars-logos">
+        <div class="services__cars-item">
+          <img src="./image/icon/Audi.svg" alt="CarLogo" />
+        </div>
+        <div class="services__cars-item">
+          <img src="./image/icon/Bmw.svg" alt="CarLogo" />
+        </div>
+        <div class="services__cars-item">
+          <img src="./image/icon/Chev.svg" alt="CarLogo" />
+        </div>
+        <div class="services__cars-item">
+          <img src="./image/icon/Ford.svg" alt="CarLogo" />
+        </div>
+        <div class="services__cars-item">
+          <img src="./image/icon/Toyota.svg" alt="CarLogo" />
+        </div>
+        <div class="services__cars-item">
+          <img src="./image/icon/Bmw.svg" alt="CarLogo" />
+        </div>
+        <div class="services__cars-item">
+          <img src="./image/icon/Audi.svg" alt="CarLogo" />
+        </div>
+        <div class="services__cars-item">
+          <img src="./image/icon/Bmw.svg" alt="CarLogo" />
+        </div>
+        <div class="services__cars-item">
+          <img src="./image/icon/Chev.svg" alt="CarLogo" />
+        </div>
+        <div class="services__cars-item">
+          <img src="./image/icon/Ford.svg" alt="CarLogo" />
+        </div>
+        <div class="services__cars-item">
+          <img src="./image/icon/Toyota.svg" alt="CarLogo" />
+        </div>
+        <div class="services__cars-item">
+          <img src="./image/icon/Bmw.svg" alt="CarLogo" />
+        </div>
+        <div class="services__cars-item">
+          <img src="./image/icon/Audi.svg" alt="CarLogo" />
+        </div>
+        <div class="services__cars-item">
+          <img src="./image/icon/Bmw.svg" alt="CarLogo" />
+        </div>
+        <div class="services__cars-item">
+          <img src="./image/icon/Chev.svg" alt="CarLogo" />
+        </div>
+        <div class="services__cars-item">
+          <img src="./image/icon/Ford.svg" alt="CarLogo" />
+        </div>
+        <div class="services__cars-item">
+          <img src="./image/icon/Toyota.svg" alt="CarLogo" />
+        </div>
+        <div class="services__cars-item">
+          <img src="./image/icon/Bmw.svg" alt="CarLogo" />
+        </div>
+      </div>
+      <div class="services-item">
+        <div class="container">
+          <div class="services-about">
+            <div class="services-about__cards">
+              <div class="services-about__card">
+                <h2 class="services-about__card-title title-h2">
+                  Mechanical repair
+                </h2>
+                <a class="services-about__card-link link" href="#"
+                  >Learn more</a
+                >
+              </div>
+              <div class="services-about__card">
+                <h2 class="services-about__card-title title-h2">
+                  Body/ Collision Repair
+                </h2>
+                <a class="services-about__card-link link" href="#"
+                  >Learn more</a
+                >
+              </div>
+              <div class="services-about__card">
+                <h2 class="services-about__card-title title-h2">
+                  Hybrid repair
+                </h2>
+                <a class="services-about__card-link link" href="#"
+                  >Learn more</a
+                >
+              </div>
+            </div>
+            <div class="services-about__heading">
+              <h3 class="services-about__heading-title title-h3">
+                What we do?
+              </h3>
+            </div>
+          </div>
+          <div class="services-more">
+            <div class="services-more-wrapper">
+              <h2 class="services-more-title title-h2">
+                we can do more!
+              </h2>
+              <a class="services-more-link link" href="#"
+                >All services</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="reviews" class="reviews">
+      <div class="container">
+        <h3 class="reviews-title title-h3">Reviews</h3>
+        <div class="reviews__cards">
+          <div class="reviews__cards_list">
+            <div class="reviews__cards_track">
+              <div class="reviews__cards_item">
+                <h2 class="reviews__cards_item-title title-h2">
+                  Lorem ipsum dolor sit amet
+                </h2>
+                <p class="reviews__cards_item-text paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit. Faucibus sit scelerisque viverra aliquam
+                  commodo in risus pretium morbi. Euismod sed at odio
+                  mauris urna, tempor sed.
+                </p>
+                <div class="reviews__cards_item-user">
+                  <img src="./image/JohnSmith.png" alt="user" />
+                  <p class="paragraph">John Smith</p>
+                </div>
+              </div>
+              <div class="reviews__cards_item">
+                <h2 class="reviews__cards_item-title title-h2">
+                  Lorem ipsum dolor sit amet
+                </h2>
+                <p class="reviews__cards_item-text paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit. Faucibus sit scelerisque viverra aliquam
+                  commodo in risus pretium morbi. Euismod sed at odio
+                  mauris urna, tempor sed.
+                </p>
+                <div class="reviews__cards_item-user">
+                  <img src="./image/JaneSmith.png" alt="user" />
+                  <p class="paragraph">Jane Smith</p>
+                </div>
+              </div>
+              <div class="reviews__cards_item">
+                <h2 class="reviews__cards_item-title title-h2">
+                  Lorem ipsum dolor sit amet
+                </h2>
+                <p class="reviews__cards_item-text paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit. Faucibus sit scelerisque viverra aliquam
+                  commodo in risus pretium morbi. Euismod sed at odio
+                  mauris urna, tempor sed.
+                </p>
+                <div class="reviews__cards_item-user">
+                  <img src="./image/JineSmith.png" alt="user" />
+                  <p class="paragraph">Jine Smith</p>
+                </div>
+              </div>
+              <div class="reviews__cards_item">
+                <h2 class="reviews__cards_item-title title-h2">
+                  Lorem ipsum dolor sit amet
+                </h2>
+                <p class="reviews__cards_item-text paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit. Faucibus sit scelerisque viverra aliquam
+                  commodo in risus pretium morbi. Euismod sed at odio
+                  mauris urna, tempor sed.
+                </p>
+                <div class="reviews__cards_item-user">
+                  <img src="./image/JohnSmith.png" alt="user" />
+                  <p class="paragraph">John Smith</p>
+                </div>
+              </div>
+              <div class="reviews__cards_item">
+                <h2 class="reviews__cards_item-title title-h2">
+                  Lorem ipsum dolor sit amet
+                </h2>
+                <p class="reviews__cards_item-text paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit. Faucibus sit scelerisque viverra aliquam
+                  commodo in risus pretium morbi. Euismod sed at odio
+                  mauris urna, tempor sed.
+                </p>
+                <div class="reviews__cards_item-user">
+                  <img src="./image/JaneSmith.png" alt="user" />
+                  <p class="paragraph">Jane Smith</p>
+                </div>
+              </div>
+              <div class="reviews__cards_item">
+                <h2 class="reviews__cards_item-title title-h2">
+                  Lorem ipsum dolor sit amet
+                </h2>
+                <p class="reviews__cards_item-text paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit. Faucibus sit scelerisque viverra aliquam
+                  commodo in risus pretium morbi. Euismod sed at odio
+                  mauris urna, tempor sed.
+                </p>
+                <div class="reviews__cards_item-user">
+                  <img src="./image/JineSmith.png" alt="user" />
+                  <p class="paragraph">Jine Smith</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-button">
+          <button id="btn-left" class="scroll-btn link">Left</button>
+          <button id="btn-right" class="scroll-btn link">
+            Right
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="support" class="support">
+      <div class="container">
+        <div class="support__description">
+          <p class="support__description-text paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Faucibus sit scelerisque viverra aliquam commodo in risus
+            pretium morbi. Euismod sed at odio mauris urna, tempor
+            sed.
+          </p>
+          <h3 class="support__description-title title-h3">
+            Having a car problem?
+          </h3>
+        </div>
+        <div class="support__form">
+          <form class="support__form_form" action="#" method="post">
+            <div class="support__form_form-item">
+              <label class="title-h2" for="name">Your name</label>
+              <input
+                id="name"
+                class="name"
+                type="text"
+                name="user_name"
+                placeholder="Enter your name"
+              />
+              <span class="messageErrorName"
+                >The text is too short</span
+              >
+            </div>
+            <div class="support__form_form-item">
+              <label class="title-h2" for="issue">The issue</label>
+              <div class="issue-wrapper">
+                <input
+                  id="issue"
+                  type="button"
+                  class="select"
+                  value="Choose your problem"
+                />
+              </div>
+              <div class="issueProblem">
+                <p class="item">Problem 1</p>
+                <p class="item">Problem 2</p>
+                <p class="item">Problem 3</p>
+                <p class="item">Problem 4</p>
+              </div>
+            </div>
+            <div class="support__form_form-item">
+              <label class="title-h2" for="phone"
+                >Your phone number</label
+              >
+              <input
+                id="phone"
+                class="phone"
+                type="tel"
+                name="user_phone"
+                placeholder="Enter phone number"
+              />
+              <span class="messageErrorPhone"
+                >The text is too short</span
+              >
+            </div>
+            <div class="support__form_form-item">
+              <label class="title-h2" for="msg">Your comment</label>
+              <textarea
+                id="msg"
+                class="message"
+                type="text"
+                name="user_message"
+                placeholder="My car won’t start"
+              ></textarea>
+              <span class="messageError">The text is too short</span>
+            </div>
+            <div class="support__form_form-item">
+              <label class="title-h2" for="mail">Your Email</label>
+              <input
+                id="mail"
+                class="mail"
+                type="email"
+                name="user_mail"
+                placeholder="Enter your mail"
+              />
+              <span class="messageErrorMail"
+                >Enter correct, for example mail@mail.com</span
+              >
+            </div>
+            <button class="form-btn link" type="submit">Send</button>
+            <span class="messageForm"></span>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="footer-logo">
+            <svg
+              width="198"
+              height="24"
+              viewBox="0 0 198 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M127.594 23.4961V0H136.425C140.059 0 142.958 1.13005 145.121 3.39015C147.285 5.65025 148.366 8.43621 148.366 11.748C148.366 15.0599 147.285 17.8458 145.121 20.1059C142.981 22.366 140.082 23.4961 136.425 23.4961H127.594ZM133.013 18.9311H135.923C138.108 18.9311 139.792 18.2374 140.974 16.8501C142.178 15.4403 142.78 13.7396 142.78 11.748C142.78 9.75647 142.178 8.06699 140.974 6.6796C139.792 5.26984 138.108 4.56495 135.923 4.56495H133.013V18.9311Z"
+                fill="#5A5A5A"
+              />
+              <path
+                d="M180.709 24C178.078 24 175.981 23.2168 174.42 21.6504C172.859 20.0616 172.079 17.9805 172.079 15.4071C172.079 12.8338 172.859 10.7639 174.42 9.19747C175.981 7.63106 178.078 6.84786 180.709 6.84786C183.095 6.84786 185.035 7.44086 186.529 8.62685C188.023 9.81284 188.871 11.424 189.071 13.4603H183.954C183.574 11.9387 182.504 11.1779 180.742 11.1779C179.627 11.1779 178.758 11.5471 178.133 12.2855C177.509 13.024 177.197 14.0645 177.197 15.4071C177.197 16.7498 177.509 17.7903 178.133 18.5288C178.758 19.2672 179.627 19.6364 180.742 19.6364C182.504 19.6364 183.574 18.9204 183.954 17.4882H189.071C188.871 19.4798 188.023 21.0686 186.529 22.2546C185.035 23.4182 183.095 24 180.709 24Z"
+                fill="#5A5A5A"
+              />
+              <path
+                d="M197.03 22.8588C196.405 23.5077 195.625 23.8322 194.688 23.8322C193.752 23.8322 192.96 23.5077 192.313 22.8588C191.689 22.2098 191.377 21.4378 191.377 20.5427C191.377 19.6253 191.689 18.8532 192.313 18.2267C192.96 17.5777 193.752 17.2533 194.688 17.2533C195.625 17.2533 196.405 17.5777 197.03 18.2267C197.676 18.8532 198 19.6253 198 20.5427C198 21.4378 197.676 22.2098 197.03 22.8588Z"
+                fill="#5A5A5A"
+              />
+              <g clip-path="url(#clip0_12_6)">
+                <path
+                  d="M170.367 15.3786L165.164 23.9198H154.759L154.713 23.8447L157.633 21.08C158.24 21.2833 158.896 21.399 159.579 21.399C162.763 21.399 165.339 18.9533 165.339 15.9384C165.339 15.0721 165.128 14.2589 164.752 13.5364L161.733 16.3981C161.598 16.5263 161.446 16.6296 161.281 16.7109C160.575 17.0643 159.685 16.9579 159.094 16.3981C158.504 15.8383 158.391 14.9907 158.761 14.3246V14.3215C158.85 14.1651 158.959 14.0243 159.094 13.8961L162.113 11.0344C161.351 10.6779 160.49 10.4746 159.579 10.4746C156.399 10.4746 153.819 12.9203 153.819 15.9384C153.819 16.5858 153.941 17.2113 154.159 17.7867L152.173 19.6726L149.557 15.3786L154.759 6.8342H165.164L170.367 15.3786Z"
+                  fill="#5A5A5A"
+                />
+              </g>
+              <path
+                d="M8.26206 23.4961L0 0H5.68644L10.5701 15.6081L15.2196 0H19.4342L24.0837 15.6081L28.9674 0H34.6538L26.3918 23.4961H21.9764L17.3269 8.72712L12.6774 23.4961H8.26206Z"
+                fill="#2FD066"
+              />
+              <path
+                d="M35.2327 23.4961V7.31735H40.3505V10.7075C40.6181 9.54389 41.1644 8.6488 41.9895 8.02224C42.8369 7.3733 43.7735 7.04883 44.7993 7.04883C45.3344 7.04883 45.7804 7.09358 46.1372 7.18309V11.9494C45.5351 11.8823 45.0223 11.8487 44.5986 11.8487C41.7665 11.8487 40.3505 13.6501 40.3505 17.2528V23.4961H35.2327Z"
+                fill="#2FD066"
+              />
+              <path
+                d="M64.644 14.5676C64.644 15.2389 64.5994 15.9885 64.5102 16.8165H52.6022C52.6468 17.8682 53.0036 18.685 53.6726 19.2668C54.3416 19.8486 55.2447 20.1395 56.382 20.1395C57.943 20.1395 58.9464 19.636 59.3924 18.629H64.4099C64.1646 20.2178 63.2949 21.5157 61.8008 22.5227C60.329 23.5073 58.5228 23.9996 56.382 23.9996C53.6391 23.9996 51.476 23.2387 49.8927 21.7171C48.3095 20.1954 47.5178 18.092 47.5178 15.4067C47.5178 12.7662 48.3095 10.6851 49.8927 9.16347C51.476 7.61945 53.5834 6.84743 56.2147 6.84743C58.7123 6.84743 60.7416 7.5635 62.3026 8.99564C63.8635 10.4278 64.644 12.2851 64.644 14.5676ZM52.6022 13.6277H59.5931C59.5708 12.5536 59.2698 11.7257 58.69 11.1439C58.1102 10.562 57.274 10.2711 56.1813 10.2711C55.0886 10.2711 54.2189 10.5844 53.5722 11.211C52.9478 11.8152 52.6245 12.6208 52.6022 13.6277Z"
+                fill="#2FD066"
+              />
+              <path
+                d="M67.5717 23.4961V7.31735H72.6895V9.66696C73.6483 7.80965 75.3877 6.881 77.9076 6.881C81.8324 6.881 83.7947 9.08515 83.7947 13.4935V23.4961H78.6435V15.1718C78.6435 13.7844 78.4205 12.7774 77.9745 12.1508C77.5508 11.5243 76.8261 11.211 75.8003 11.211C73.7264 11.211 72.6895 12.4865 72.6895 15.0375V23.4961H67.5717Z"
+                fill="#2FD066"
+              />
+              <path
+                d="M95.2486 23.9996C92.6172 23.9996 90.5211 23.2164 88.9601 21.65C87.3991 20.0612 86.6186 17.9801 86.6186 15.4067C86.6186 12.8333 87.3991 10.7634 88.9601 9.19704C90.5211 7.63063 92.6172 6.84743 95.2486 6.84743C97.6347 6.84743 99.5748 7.44043 101.069 8.62642C102.563 9.81241 103.41 11.4236 103.611 13.4599H98.4932C98.1141 11.9382 97.0438 11.1774 95.2821 11.1774C94.1671 11.1774 93.2974 11.5466 92.673 12.2851C92.0486 13.0235 91.7364 14.0641 91.7364 15.4067C91.7364 16.7494 92.0486 17.7899 92.673 18.5283C93.2974 19.2668 94.1671 19.636 95.2821 19.636C97.0438 19.636 98.1141 18.9199 98.4932 17.4878H103.611C103.41 19.4794 102.563 21.0682 101.069 22.2541C99.5748 23.4178 97.6347 23.9996 95.2486 23.9996Z"
+                fill="#2FD066"
+              />
+              <path
+                d="M116.878 6.881C120.802 6.881 122.765 9.08515 122.765 13.4935V23.4961H117.614V15.1718C117.614 13.7844 117.391 12.7774 116.945 12.1508C116.521 11.5243 115.796 11.211 114.77 11.211C112.697 11.211 111.66 12.4865 111.66 15.0375V23.4961H106.542V0H111.66V9.66696C112.618 7.80965 114.358 6.881 116.878 6.881Z"
+                fill="#2FD066"
+              />
+              <defs>
+                <clipPath id="clip0_12_6">
+                  <rect
+                    width="20.8101"
+                    height="17.0856"
+                    fill="white"
+                    transform="translate(149.557 6.8342)"
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <nav class="footer-nav">
+            <ul class="footer-nav__list">
+              <li>
+                <a
+                  class="footer-nav__list-link link-menu"
+                  href="#homepage"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer-nav__list-link link-menu"
+                  href="#about"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer-nav__list-link link-menu"
+                  href="#services"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a class="footer-nav__list-link link-menu" href="#"
+                  >Locations?</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer-nav__list-link link-menu"
+                  href="#reviews"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a class="footer-nav__list-link link-menu" href="#"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__copyright">
+          <p class="paragraph">WrenchDoc. All right reserved</p>
+          <a
+            class="footer__copyright-link paragraph"
+            href="tel:+10000000000"
+            >+1 000 000 00 00</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
