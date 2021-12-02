@@ -1,0 +1,107 @@
+@mixin title-h1 {
+  color: $mainColor;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 120%;
+}
+@mixin title-h2 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 135%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $additionalColor;
+}
+@mixin title-h3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 145.19%;
+  letter-spacing: 0.1em;
+  color: $mainColor;
+  text-transform: uppercase;
+}
+
+@mixin paragraph {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 145%;
+  color: $additionalColor;
+}
+
+@mixin link-menu {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 145.19%;
+}
+@mixin link {
+  color: $mainColor;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 145.19%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+@mixin input {
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 145%;
+  color: #5a5a5a;
+  opacity: 0.5;
+}
+
+::placeholder {
+  @include input();
+}
+
+.link-menu {
+  @include link-menu();
+}
+.title-h1 {
+  @include title-h1();
+}
+
+.title-h2 {
+  @include title-h2();
+}
+
+.title-h3 {
+  @include title-h3();
+}
+
+.paragraph {
+  @include paragraph();
+}
+
+.link {
+  @include link();
+}
+
+@mixin for-phone-only {
+  @media (max-width: 540px) {
+    @content;
+  }
+}
+@mixin for-tablet-portrait-up {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+@mixin for-tablet-landscape-up {
+  @media (max-width: 992px) {
+    @content;
+  }
+}
+@mixin for-desktop-up {
+  @media (max-width: 1219px) {
+    @content;
+  }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) {
+    @content;
+  }
+}
